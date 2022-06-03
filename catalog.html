@@ -61,18 +61,30 @@
     <section>
       <form action="https://echo.htmlacademy.ru/" method="post">
         <h2>ФИЛЬТР:</h2>
-        <p>Стоимость</p>
-        <input type="range" action="https://echo.htmlacademy.ru/" method="post" min="0" max="5000" value="1">
-        <p>Цвет</p>
-        <label><input type="radio" name="question-one" value="p">Черный</label>
-        <label><input type="radio" name="question-one" value="p">Белый</label>
-        <label><input type="radio" name="question-one" value="p">Синий</label>
-        <label><input type="radio" name="question-one" value="p">Красный</label>
-        <label><input type="radio" name="question-one" value="p">Розовый</label>
-        <p>Bluetooth</p>
-        <label><input type="radio" name="question-one" value="p">Есть</label>
-        <label><input type="radio" name="question-one" value="p">Нет</label>
-        <button type="submit">Показать</button>
+        <fieldset>
+          <legend>
+            <p>Стоимость</p>
+            <input type="range" action="https://echo.htmlacademy.ru/" method="post" min="0" max="5000" value="1">
+          </legend>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <p>Цвет</p>
+            <label><input type="radio" name="question-one" value="p">Черный</label>
+            <label><input type="radio" name="question-one" value="p">Белый</label>
+            <label><input type="radio" name="question-one" value="p">Синий</label>
+            <label><input type="radio" name="question-one" value="p">Красный</label>
+            <label><input type="radio" name="question-one" value="p">Розовый</label>
+          </legend>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <p>Bluetooth</p>
+            <label><input type="radio" name="question-one" value="p">Есть</label>
+            <label><input type="radio" name="question-one" value="p">Нет</label>
+            <button type="submit">Показать</button>
+          </legend>
+        </fieldset>
       </form>
     </section>
     <section>
@@ -84,8 +96,8 @@
         <option>3</option>
         <option>4</option>
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="#">вверх</a></li>
+          <li><a href="#">вниз</a></li>
         </ul>
       </select>
     </section>
@@ -107,13 +119,13 @@
     </div>
     <div>
       <ul>
-        <li><button type="button">НАЗАД</button></li>
-        <li><button type="button">1</button></li>
-        <li><button type="button">2</button></li>
-        <li><button type="button">3</button></li>
-        <li><button type="button">...</button></li>
-        <li><button type="button">15</button></li>
-        <li><button type="button">ВПЕРЁД</button></li>
+        <li><a href="#">НАЗАД</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">15</a></li>
+        <li><a href="#">ВПЕРЁД</a></li>
       </ul>
     </div>
   </main>
