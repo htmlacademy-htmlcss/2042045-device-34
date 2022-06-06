@@ -1,9 +1,16 @@
 header {
     background: #ffe17f;
 }
-footer{
+
+footer {
     background: #444444;
 }
+
 li {
     list-style-type: none;
-   }
+}
+
+a{
+    text-decoration: none;
+}
+
