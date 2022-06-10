@@ -83,14 +83,125 @@ a {
     color: #000000;
 }
 
-.enter{
-background-image: url(../images/enter.png);
+.enter {
+    background-image: url(../images/account.svg);
+    background-repeat: no-repeat;
 }
 
-.compare{
-background-image: url(../images/compare.png);
+.compare {
+    background-image: url(../images/compare.svg);
+    background-repeat: no-repeat;
 }
 
-.bascet{
-background-image: url(../images/bascet.png);
+.bascet {
+    background-image: url(../images/bascet.svg);
+    background-repeat: no-repeat;
+}
+
+.close {
+    background-image: url(../images/exit.svg);
+}
+
+.plus {
+    background-image: url(../images/plus.svg);
+    background-repeat: no-repeat;
+}
+
+.more {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.parameters {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.explanation {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.cargo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.buttons {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.button-pressed {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFE17F;
+}
+
+.footer-advantages-item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-adress {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.phone-number{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
