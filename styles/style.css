@@ -86,16 +86,34 @@ a {
 .enter {
     background-image: url(../images/account.svg);
     background-repeat: no-repeat;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
 }
 
 .compare {
     background-image: url(../images/compare.svg);
     background-repeat: no-repeat;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
 }
 
 .bascet {
     background-image: url(../images/bascet.svg);
     background-repeat: no-repeat;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
 }
 
 .close {
@@ -196,7 +214,7 @@ a {
     color: #FFFFFF;
 }
 
-.phone-number{
+.phone-number {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -204,4 +222,35 @@ a {
     line-height: 20px;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+
+.up {
+    background-image: url(../images/up.svg);
+    background-repeat: no-repeat;
+}
+
+.down {
+    background-image: url(../images/down.svg);
+    background-repeat: no-repeat;
+}
+
+.sorting {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.filter {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
 }

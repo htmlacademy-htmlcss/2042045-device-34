@@ -9,32 +9,41 @@
 
 <body>
   <header>
-    <a href="#"><img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс"></a>
+    <h1 class="visually-hidden">device</h1>
+    <a href="#">
+      <img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс">
+    </a>
     <nav>
-      <form class="search">
-        <input  type="text" name="search">
+      <form action="https://echo.htmlacademy.ru/" method="post">
+        <input class="search" type="text" name="search">
         <button type="submit">Найти</button>
       </form>
       <div>
-        <a href="#">Коля Петухов</a>
-        <a href="#">Выйти</a>
-        <a href="#">Сравнить</a>
-        <a href="#">Корзина</a>
+        <a class="enter" href="#">Коля Петухов</a>
+        <a>Выйти</a>
+        <a class="compare" href="#">Сравнить</a>
+        <a class="bascet" href="#">Корзина</a>
         <div class="popover">
           <ul>
-            <li><img src="images/monopod-mini.jpg" width="39" height="43" alt="monopod-mini">Любительская
-              селфи-палка<button type="button"></button></li>
-            <li><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="monopod-mini-pro">Профессиональная
-              селфи-палка<button type="button"></button></li>
+            <li><a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
+                <p>Любительская
+                  селфи-палка</p>
+              </a><button class="close" type="button"></button>
+            </li>
+            <li><a><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="Профессиональная селфи-палка">
+                <p>Профессиональная селфи-палка</p>
+              </a><button class="close" type="button"></button></li>
           </ul>
-          <span>Товаров:2</span>
-          <span>Сумма: 2000 ₽</span>
-          <button type="button">Открыть корзину</button>
+          <div>
+            <span>Товаров:2</span>
+            <span>Сумма: 2000 ₽</span>
+            <a href="#">Открыть корзину</a>
+          </div>
         </div>
       </div>
       <ul>
-        <li><button type="button">Каталог товаров</button></li>
-        <li><a href="#">Виртуальная реальность</a></li>
+        <li><button class="plus" class="services" type="button">Каталог товаров</button></li>
+        <li class="vr"><a href="#">Виртуальная реальность</a></li>
         <li><a href="catalog.html">Моноподы для cелфи</a></li>
         <li><a href="#">Экшн-камеры</a></li>
         <li><a href="#">Фитнес-браслеты</a></li>
@@ -42,15 +51,15 @@
         <li><a href="#">Квадрокоптеры</a></li>
       </ul>
       <ul>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a class="services" href="#">Доставка</a></li>
+        <li><a class="services" href="#">Гарантия</a></li>
+        <li><a class="services" href="#">Контакты</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section>
-      <h1>Моноподы для селфи</h1>
+      <h1 class="slogan">Моноподы для селфи</h1>
       <ul>
         <li><a href="index.html">Главная</a></li>
         <li><a href="#">Каталог товаров</a></li>
@@ -59,9 +68,9 @@
     </section>
     <section>
       <form action="https://echo.htmlacademy.ru/" method="post">
-        <h2>ФИЛЬТР:</h2>
+        <h2 class="sorting">ФИЛЬТР:</h2>
         <fieldset>
-          <legend>Стоимость</legend>
+          <legend class="filter">Стоимость</legend>
           <div class="range-bar">
             <button class="range-toggle toggle-min">
             <span class="visually-hidden">Изменить минимальную стоимость.
@@ -85,7 +94,7 @@
             </div>
         </fieldset>
         <fieldset>
-          <legend>Цвет</legend>
+          <legend class="filter">Цвет</legend>
           <ul>
             <li><label><input type="checkbox" name="black" checked="checked">Черный</label></li>
             <li><label><input type="checkbox" name="white" checked="checked">Белый</label></li>
@@ -95,7 +104,7 @@
           </ul>
         </fieldset>
         <fieldset>
-          <legend>Bluetooth</legend>
+          <legend class="filter">Bluetooth</legend>
           <li><label><input type="radio" name="question-one" value="yes" checked="checked">Есть</label></li>
           <li><label><input type="radio" name="question-one" value="no">Нет</label></li>
           <button type="submit">Показать</button>
@@ -103,8 +112,8 @@
       </form>
     </section>
     <section>
-      <h2>СОРТИРОВКА:</h2>
-      <p>Популярное</p>
+      <h2 class="sorting">СОРТИРОВКА:</h2>
+      <p class="description">Популярное</p>
       <select name="populars">
         <option>1</option>
         <option>2</option>
@@ -112,35 +121,32 @@
         <option>4</option>
       </select>
       <ul>
-        <li><a href="#">вверх</a></li>
-        <li><a href="#">вниз</a></li>
+        <li><a class="up" href="#">вверх</a></li>
+        <li><a class="down" href="#">вниз</a></li>
       </ul>
     </section>
     <div>
       <ul>
         <li><img src="images/catalog/monopod.jpg" width="360" height="380"
-            alt="Любительская селфи-палка"><span>Любительская
-            селфи-палка</span> <b>500 ₽</b><a href="#">Подробнее</a></li>
+            alt="Любительская селфи-палка"><h3>Любительская
+            селфи-палка</h3> <b>500 ₽</b></li>
         <li>
           <img src="images/catalog/monopod-pro.jpg" width="360" height="380" alt="Профессиональная
           селфи-палка">
           <h3>Профессиональная селфи-палка</h3>
           <b>1500 ₽</b>
-          <a href="#">Подробнее</a>
         </li>
         <li>
           <img src="images/catalog/monopod-for-water.jpg" width="360" height="380" alt="Непотопляемая
           селфи-палка">
           <h3>Непотопляемая селфи-палка</h3>
           <b>2500 ₽</b>
-          <a href="#">Подробнее</a>
         </li>
         <li>
           <img src="images/catalog/monopod-folow-me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за
           мной»">
           <h3>Селфи-палка «Следуй за мной»</h3>
           <b>1500 ₽</b>
-          <a href="#">Подробнее</a>
         </li>
       </ul>
     </div>
@@ -149,13 +155,13 @@
     </div>
     <div>
       <ul>
-        <li><a href="#">Назад</a></li>
+        <li><a class="services" href="#">Назад</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
         <li><a href="#">...</a></li>
         <li><a href="#">15</a></li>
-        <li><a href="#">Вперёд</a></li>
+        <li><a class="services" href="#">Вперёд</a></li>
       </ul>
     </div>
   </main>
