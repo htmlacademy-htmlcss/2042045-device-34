@@ -179,7 +179,6 @@ a {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #000000;
-
 }
 
 .button-pressed {
@@ -246,6 +245,45 @@ a {
 }
 
 .filter {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.catalog {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.vr {
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/vr.svg);
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 55px;
+}
+
+.contact-number {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #444444;
+}
+
+.tc {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;

@@ -20,35 +20,39 @@
       </form>
       <div>
         <a class="enter" href="#">Коля Петухов</a>
-        <a>Выйти</a>
+        <a class="enter"  href="#">Выйти</a>
         <a class="compare" href="#">Сравнить</a>
         <a class="bascet" href="#">Корзина</a>
         <div class="popover">
           <ul>
-            <li><a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
-                <p>Любительская
-                  селфи-палка</p>
-              </a><button class="close" type="button"></button>
+            <li>
+              <a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
+                <p class="footer-adress">Любительская селфи-палка</p>
+              </a>
+              <button class="close" type="button"></button>
             </li>
-            <li><a><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="Профессиональная селфи-палка">
-                <p>Профессиональная селфи-палка</p>
-              </a><button class="close" type="button"></button></li>
+            <li>
+              <a><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="Профессиональная селфи-палка">
+                <p class="footer-adress">Профессиональная селфи-палка</p>
+              </a>
+              <button class="close" type="button"></button>
+            </li>
           </ul>
           <div>
-            <span>Товаров:2</span>
-            <span>Сумма: 2000 ₽</span>
-            <a href="#">Открыть корзину</a>
+            <span class="footer-adress">Товаров:2</span>
+            <span class="footer-adress">Сумма: 2000 ₽</span>
+            <a class="buttons" href="#">Открыть корзину</a>
           </div>
         </div>
       </div>
       <ul>
-        <li><button class="plus" class="services" type="button">Каталог товаров</button></li>
-        <li class="vr"><a href="#">Виртуальная реальность</a></li>
-        <li><a href="catalog.html">Моноподы для cелфи</a></li>
-        <li><a href="#">Экшн-камеры</a></li>
-        <li><a href="#">Фитнес-браслеты</a></li>
-        <li><a href="#">Умные часы</a></li>
-        <li><a href="#">Квадрокоптеры</a></li>
+        <li><button class="plus" type="button">Каталог товаров</button></li>
+        <li><a class="catalog" href="#">Виртуальная реальность</a></li>
+        <li><a class="catalog" href="catalog.html">Моноподы для cелфи</a></li>
+        <li><a class="catalog" href="#">Экшн-камеры</a></li>
+        <li><a class="catalog" href="#">Фитнес-браслеты</a></li>
+        <li><a class="catalog" href="#">Умные часы</a></li>
+        <li><a class="catalog" href="#">Квадрокоптеры</a></li>
       </ul>
       <ul>
         <li><a class="services" href="#">Доставка</a></li>
@@ -73,25 +77,25 @@
           <legend class="filter">Стоимость</legend>
           <div class="range-bar">
             <button class="range-toggle toggle-min">
-            <span class="visually-hidden">Изменить минимальную стоимость.
-            </span>
+              <span class="visually-hidden">Изменить минимальную стоимость.
+              </span>
             </button>
             <button class="range-toggle toggle-max">
-            <span class="visually-hidden">Изменить максимальную стоимость.
-            </span>
+              <span class="visually-hidden">Изменить максимальную стоимость.
+              </span>
             </button>
-            </div>
-            
-            <div class="range-wrapper-inputs">
+          </div>
+
+          <div class="range-wrapper-inputs">
             <label class="catalog-range-label">
-            от
-            <input class="range-input" type="number" value="0" name="min-price">
+              от
+              <input class="range-input" type="number" value="0" name="min-price">
             </label>
             <label class="catalog-range-label">
-            до
-            <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
+              до
+              <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
             </label>
-            </div>
+          </div>
         </fieldset>
         <fieldset>
           <legend class="filter">Цвет</legend>
@@ -105,8 +109,10 @@
         </fieldset>
         <fieldset>
           <legend class="filter">Bluetooth</legend>
-          <li><label><input type="radio" name="question-one" value="yes" checked="checked">Есть</label></li>
-          <li><label><input type="radio" name="question-one" value="no">Нет</label></li>
+          <ul>
+            <li><label><input type="radio" name="question-one" value="yes" checked="checked">Есть</label></li>
+            <li><label><input type="radio" name="question-one" value="no">Нет</label></li>
+          </ul>
           <button type="submit">Показать</button>
         </fieldset>
       </form>
@@ -127,9 +133,10 @@
     </section>
     <div>
       <ul>
-        <li><img src="images/catalog/monopod.jpg" width="360" height="380"
-            alt="Любительская селфи-палка"><h3>Любительская
-            селфи-палка</h3> <b>500 ₽</b></li>
+        <li><img src="images/catalog/monopod.jpg" width="360" height="380" alt="Любительская селфи-палка">
+          <h3>Любительская
+            селфи-палка</h3> <b>500 ₽</b>
+        </li>
         <li>
           <img src="images/catalog/monopod-pro.jpg" width="360" height="380" alt="Профессиональная
           селфи-палка">
@@ -172,7 +179,7 @@
     </div>
     <div>
       <ul>
-        <li><a class="footer-advantages-item"  href="#">Доставка</a></li>
+        <li><a class="footer-advantages-item" href="#">Доставка</a></li>
         <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
         <li><a class="footer-advantages-item" href="#">Контакты</a></li>
       </ul>
