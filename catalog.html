@@ -20,7 +20,7 @@
       </form>
       <div>
         <a class="enter" href="#">Коля Петухов</a>
-        <a class="enter"  href="#">Выйти</a>
+        <a class="enter" href="#">Выйти</a>
         <a class="compare" href="#">Сравнить</a>
         <a class="bascet" href="#">Корзина</a>
         <div class="popover">
@@ -65,9 +65,9 @@
     <section>
       <h1 class="slogan">Моноподы для селфи</h1>
       <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="#">Каталог товаров</a></li>
-        <li><a href="#">Моноподы для селфи</a></li>
+        <li><a class="choice" href="index.html">Главная</a></li>
+        <li><a class="choice" href="#">Каталог товаров</a></li>
+        <li><a class="choice" href="#">Моноподы для селфи</a></li>
       </ul>
     </section>
     <section>
@@ -100,20 +100,21 @@
         <fieldset>
           <legend class="filter">Цвет</legend>
           <ul>
-            <li><label><input type="checkbox" name="black" checked="checked">Черный</label></li>
-            <li><label><input type="checkbox" name="white" checked="checked">Белый</label></li>
-            <li><label><input type="checkbox" name="blue">Синий</label></li>
-            <li><label><input type="checkbox" name="red">Красный</label></li>
-            <li><label><input type="checkbox" name="pink">Розовый</label></li>
+            <li><label class="choice"><input type="checkbox" name="black" checked="checked">Черный</label></li>
+            <li><label class="choice"><input type="checkbox" name="white" checked="checked">Белый</label></li>
+            <li><label class="choice"><input type="checkbox" name="blue">Синий</label></li>
+            <li><label class="choice"><input type="checkbox" name="red">Красный</label></li>
+            <li><label class="choice"><input class="choice" type="checkbox" name="pink">Розовый</label></li>
           </ul>
         </fieldset>
         <fieldset>
           <legend class="filter">Bluetooth</legend>
           <ul>
-            <li><label><input type="radio" name="question-one" value="yes" checked="checked">Есть</label></li>
-            <li><label><input type="radio" name="question-one" value="no">Нет</label></li>
+            <li><label class="choice"><input type="radio" name="question-one" value="yes" checked="checked">Есть</label>
+            </li>
+            <li><label class="choice"><input type="radio" name="question-one" value="no">Нет</label></li>
           </ul>
-          <button type="submit">Показать</button>
+          <button class="buttons" type="submit">Показать</button>
         </fieldset>
       </form>
     </section>
@@ -134,40 +135,40 @@
     <div>
       <ul>
         <li><img src="images/catalog/monopod.jpg" width="360" height="380" alt="Любительская селфи-палка">
-          <h3>Любительская
-            селфи-палка</h3> <b>500 ₽</b>
+          <h3 class="products">Любительская селфи-палка</h3>
+          <b class="price">500 ₽</b>
         </li>
         <li>
           <img src="images/catalog/monopod-pro.jpg" width="360" height="380" alt="Профессиональная
           селфи-палка">
-          <h3>Профессиональная селфи-палка</h3>
-          <b>1500 ₽</b>
+          <h3 class="products">Профессиональная селфи-палка</h3>
+          <b class="price">1500 ₽</b>
         </li>
         <li>
           <img src="images/catalog/monopod-for-water.jpg" width="360" height="380" alt="Непотопляемая
           селфи-палка">
-          <h3>Непотопляемая селфи-палка</h3>
-          <b>2500 ₽</b>
+          <h3 class="products">Непотопляемая селфи-палка</h3>
+          <b class="price">2500 ₽</b>
         </li>
         <li>
           <img src="images/catalog/monopod-folow-me.jpg" width="360" height="380" alt="Селфи-палка «Следуй за
           мной»">
-          <h3>Селфи-палка «Следуй за мной»</h3>
-          <b>1500 ₽</b>
+          <h3 class="products">Селфи-палка «Следуй за мной»</h3>
+          <b class="price">1500 ₽</b>
         </li>
       </ul>
     </div>
     <div>
-      <button type="button">Загрузить ещё</button>
+      <button class="load-more" type="button">Загрузить ещё</button>
     </div>
     <div>
       <ul>
         <li><a class="services" href="#">Назад</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">...</a></li>
-        <li><a href="#">15</a></li>
+        <li><a class="page-number" href="#">1</a></li>
+        <li><a class="page-number" href="#">2</a></li>
+        <li><a class="page-number" href="#">3</a></li>
+        <li><a class="page-number" href="#">...</a></li>
+        <li><a class="page-number" href="#">15</a></li>
         <li><a class="services" href="#">Вперёд</a></li>
       </ul>
     </div>
