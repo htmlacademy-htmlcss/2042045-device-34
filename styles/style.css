@@ -359,12 +359,117 @@ a {
     color: #000000;
 }
 
-.monopod {}
+.monopod {
+    margin: 40px;
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/monopod.svg);
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 117px;
+    padding-top: 44px;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 1px;
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
 
-.camera {}
+.camera {
+    margin: 40px;
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/camera.svg);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 87px;
+    padding-top: 37px;
+    padding-left: 44px;
+    padding-right: 45px;
+    padding-bottom: 36px;
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
 
-.fitnes {}
+.fitnes {
+    margin: 40px;
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/fitnes.svg);
+    background-repeat: no-repeat;
+    width: 107px;
+    height: 65px;
+    padding-top: 48px;
+    padding-left: 26px;
+    padding-right: 27px;
+    padding-bottom: 47px;
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
 
-.time {}
+.time {
+    margin: 40px;
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/time.svg);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 98px;
+    padding-top: 32px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 30px;
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
 
-.copter {}
+.copter {
+    margin: 40px;
+    background: #FFE17F;
+    height: 160px;
+    width: 160px;
+    background-image: url(../images/copter.svg);
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 69px;
+    padding-top: 46px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 45px;
+    background-position: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
