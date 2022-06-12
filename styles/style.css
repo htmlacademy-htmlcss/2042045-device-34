@@ -336,20 +336,28 @@ a {
     opacity: 0.3;
 }
 
-.vr {
-    margin: 40px;
-    background: #FFE17F;
-    height: 160px;
-    width: 160px;
+.vr-image-link::before {
     background-image: url(../images/vr.svg);
-    background-repeat: no-repeat;
-    width: 97px;
-    height: 55px;
-    padding-top: 54px;
-    padding-left: 32px;
-    padding-right: 31px;
-    padding-bottom: 51px;
-    background-position: center;
+    }
+
+    .vr-link::before{
+        margin: 40px;
+        background: #FFE17F;
+        height: 160px;
+        width: 160px;
+        background-repeat: no-repeat;
+        width: 97px;
+        height: 55px;
+        padding-top: 54px;
+        padding-left: 32px;
+        padding-right: 31px;
+        padding-bottom: 51px;
+        background-position: center;
+        
+    }
+
+.text{
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
