@@ -423,28 +423,12 @@ a {
     height: 15px;
 }
 
-.car-link::before{
-    background-image: url('../images/cargo.svg');
-}
-
-.background-car-link::before{
-    content: "";
-    display: block;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-.background-car-link{
+.car{
+    background-color:  #FFE17F;
     width: 125px;
     height: 100px;
-    background: #FFE17F;
+    background-image: url('../images/cargo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.check{
-    background-image: url('../images/check.svg');
-    background-repeat: no-repeat;
-    height: 15px;
-    width: 15px;
-}
