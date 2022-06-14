@@ -27,6 +27,10 @@ header {
 }
 
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: Rubik, sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -34,8 +38,23 @@ body {
     background-color: #ffffff;
 }
 
+.main-container {
+    flex-grow: 1;
+}
+
 footer {
     background: #444444;
+}
+
+.navigation {
+    display: flex;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    pad: 0;
 }
 
 li {
@@ -118,8 +137,8 @@ a {
     background-image: url('../images/exit.svg');
 }
 
-.close-link::before{
-    content:"";
+.close-link::before {
+    content: "";
     display: block;
     width: 10px;
     height: 10px;
@@ -161,6 +180,15 @@ a {
     line-height: 30px;
     color: #000000;
 
+}
+
+.parametr-name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
 }
 
 .explanation {
@@ -489,6 +517,31 @@ a {
     display: block;
     width: 14px;
     height: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+.credit-image::before {
+    background-image: url('../images/credit.svg');
+}
+
+.service-image::before {
+    background-image: url('../images/service.svg');
+}
+
+.logist-image::before {
+    background-image: url('../images/logist.svg');
+}
+
+.image-link::before {
+    content: "";
+    display: block;
+    width: 175px;
+    height: 200px;
     background-repeat: no-repeat;
     background-position: center;
 }

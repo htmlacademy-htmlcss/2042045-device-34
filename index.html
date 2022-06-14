@@ -13,7 +13,7 @@
     <a href="#">
       <img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс">
     </a>
-    <nav>
+    <nav class="navigation">
       <form action="https://echo.htmlacademy.ru/" method="post">
         <input class="search" type="text" name="search">
         <button type="submit">Найти</button>
@@ -23,7 +23,7 @@
         <a class="compare-link main-header-link" href="#">Сравнить</a>
         <a class="bascet-link main-header-link" href="#">Корзина</a>
         <div class="popover">
-          <ul>
+          <ul class="navigation-list">
             <li>
               <a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
                 <p class="footer-adress">Любительская селфи-палка</p>
@@ -44,7 +44,7 @@
           </div>
         </div>
       </div>
-      <ul>
+      <ul class="navigation-list">
         <li><button class="plus plus-link" type="button">Каталог товаров</button></li>
         <li><a class="catalog" href="#">Виртуальная реальность</a></li>
         <li><a class="catalog" href="catalog.html">Моноподы для cелфи</a></li>
@@ -53,14 +53,14 @@
         <li><a class="catalog" href="#">Умные часы</a></li>
         <li><a class="catalog" href="#">Квадрокоптеры</a></li>
       </ul>
-      <ul>
+      <ul class="navigation-list">
         <li><a class="services" href="#">Доставка</a></li>
         <li><a class="services" href="#">Гарантия</a></li>
         <li><a class="services" href="#">Контакты</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="main-container">
     <section>
       <h2><span class="visually-hidden">Слайдер</span></h2>
       <button class="left slider-link" type="button"></button>
@@ -75,9 +75,9 @@
           <a class="buttons" href class="buttons">Подробнее</a>
           <div>
             <p class="parameters">800 м</p>
-            <p>Дальность полета</p>
+            <p class="parametr-name">Дальность полета</p>
             <p class="parameters">50 м</p>
-            <p>Радиус поражения</p>
+            <p class="parametr-name">Радиус поражения</p>
           </div>
         </li>
         <li>
@@ -87,7 +87,7 @@
             соблюдать диету.</p>
           <div>
             <p class="parameters">48 часов</p>
-            <p>Без подзарядки</p>
+            <p class="parametr-name">Без подзарядки</p>
           </div>
         </li>
         <li>
@@ -99,11 +99,11 @@
           <a class="more" href="#">Подробнее</a>
           <div>
             <p class="parameters">8.5 м</p>
-            <p>Длина палки</p>
+            <p class="parametr-name">Длина палки</p>
             <p class="parameters">5 кг</p>
-            <p>Вес палки</p>
+            <p class="parametr-name">Вес палки</p>
             <p class="parameters">Карбон</p>
-            <p>Материал</p>
+            <p class="parametr-name">Материал</p>
           </div>
         </li>
       </ul>
@@ -133,17 +133,17 @@
       <ul>
         <li>
           <h3 class="slogan">Доставка</h3>
-          <p class="description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+          <p class="logist-image image-link description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
             Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
         </li>
         <li>
           <h3 class="slogan">Гарантия</h3>
-          <p class="description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы
+          <p class="service-image image-link description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы
             выдадим вам новый. Товар, не дом, конечно же.</p>
         </li>
         <li>
           <h3 class="slogan">Кредит</h3>
-          <p class="description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее
+          <p class="credit-image image-link description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее
             выгодные условия кредита. Выгодные для банка, разумеется.</p>
         </li>
       </ul>
