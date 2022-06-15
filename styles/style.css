@@ -1,16 +1,564 @@
+@font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+    font-display: swap;
+}
+
 header {
     background: #ffe17f;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.main-container {
+    flex-grow: 1;
 }
 
 footer {
     background: #444444;
 }
 
+.navigation {
+    display: flex;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    width: 1040px;
+    margin: 0;
+    pad: 0;
+}
+
 li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    font-size: 0;
+}
+
+.search {
+    background-image: #497543;
+}
+
+.services {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.slogan {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.description {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.enter-link::before {
+    background-image: url('../images/account.svg');
+}
+
+
+.compare-link::before {
+    background-image: url('../images/compare.svg');
+}
+
+.bascet-link::before {
+    background-image: url('../images/bascet.svg');
+}
+
+.main-header-link::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.main-header-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.close::before {
+    background-image: url('../images/exit.svg');
+}
+
+.close-link::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.plus::before {
+    background-image: url(../images/plus.svg);
+}
+
+.plus-link::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+
+.more {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.parameters {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.parametr-name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444444;
+}
+
+.explanation {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.buttons {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.button-pressed {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFE17F;
+}
+
+.footer-advantages-item {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-adress {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.phone-number {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.subscribe {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+.up::before {
+    background-image: url('../images/up.svg');
+}
+
+.down::before {
+    background-image: url('../images/down.svg');
+}
+
+.up-down-link::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sorting {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.filter {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.catalog {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contact-number {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #444444;
+}
+
+.tc {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.choice {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.products {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.price {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #444444;
+}
+
+.load-more {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.page-number {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.3;
+}
+
+.main-catalog-item {
+    width: 160px;
+}
+
+.main-catalog-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.vr-link::before {
+    background-image: url('../images/vr.svg');
+}
+
+.monopod-link::before {
+    background-image: url('../images/monopod.svg');
+}
+
+.camera-link::before {
+    background-image: url('../images/camera.svg');
+}
+
+.fitnes-link::before {
+    background-image: url('../images/fitnes.svg');
+}
+
+.time-link::before {
+    background-image: url('../images/time.svg');
+}
+
+.copter-link::before {
+    background-image: url('../images/copter.svg');
+}
+
+.main-catalog-link::before {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 30px;
+    background-color: #ffe17f;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cargo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.left::before {
+    background-image: url('../images/left.svg');
+}
+
+.right::before {
+    background-image: url('../images/right.svg');
+}
+
+.slider-link::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ring-white::before {
+    background-image: url('../images/ring-white.svg');
+}
+
+.ring-black::before {
+    background-image: url('../images/ring-black.svg');
+}
+
+.ring-link::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.car::before {
+    background-image: url('../images/cargo.svg');
+}
+
+.car-link::before {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 100px;
+    background-color: #ffe17f;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.telegram-link::before {
+    background-image: url('../images/telegram.svg');
+}
+
+.youtube-link::before {
+    background-image: url('../images/youtube.svg');
+}
+
+.twitter-link::before {
+    background-image: url('../images/twitter.svg');
+}
+
+.main-social-link::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.check::before {
+    background-image: url('../images/check.svg');
+}
+
+.check-link::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html {
+    height: 100%;
+}
+
+.credit-image::before {
+    background-image: url('../images/credit.svg');
+}
+
+.service-image::before {
+    background-image: url('../images/service.svg');
+}
+
+.logist-image::before {
+    background-image: url('../images/logist.svg');
+}
+
+.image-link::before {
+    content: "";
+    display: block;
+    width: 175px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
