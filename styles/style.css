@@ -53,6 +53,7 @@ footer {
 }
 
 .navigation-list {
+    width: 1040px;
     margin: 0;
     pad: 0;
 }
@@ -100,7 +101,7 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    color: #000000;
+    color: #444444;
 }
 
 .enter-link::before {
