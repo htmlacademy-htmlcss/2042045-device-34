@@ -13,8 +13,8 @@
     <a href="#">
       <img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс">
     </a>
-    <div class="navigation-list">
-      <nav class="navigation">
+    <nav class="navigation">
+      <div class="navigation-list">
         <form action="https://echo.htmlacademy.ru/" method="post">
           <input class="search" type="text" name="search">
           <button type="submit">Найти</button>
@@ -22,39 +22,39 @@
         <a class="enter-link main-header-link" href="#">Войти</a>
         <a class="compare-link main-header-link" href="#">Сравнить</a>
         <a class="bascet-link main-header-link" href="#">Корзина</a>
-
-        <div class="popover">
-          <ul class="">
-            <li>
-              <a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
-                <p class="footer-adress">Любительская селфи-палка</p>
-              </a>
-              <button class="close close-link" type="button"></button>
-            </li>
-            <li>
-              <a><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="Профессиональная селфи-палка">
-                <p class="footer-adress">Профессиональная селфи-палка</p>
-              </a>
-              <button class="close close-link" type="button"></button>
-            </li>
-          </ul>
-          <div>
-            <span class="footer-adress">Товаров:2</span>
-            <span class="footer-adress">Сумма: 2000 ₽</span>
-            <a class="buttons" href="#">Открыть корзину</a>
-          </div>
-        </div>
-    </div>
-    <div class="">
-      <span>Каталог товаров</span>
-      <button class="plus plus-link" type="button"></button>
-      <span class="visually-hidden">Раскрывающийся список товаров</span>
-      <ul class="">
-        <li><a class="services" href="#">Доставка</a></li>
-        <li><a class="services" href="#">Гарантия</a></li>
-        <li><a class="services" href="#">Контакты</a></li>
-      </ul>
-      </nav>
+      </div>
+      <div class="popover">
+        <ul class="">
+          <li>
+            <a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
+              <p class="footer-adress">Любительская селфи-палка</p>
+            </a>
+            <button class="close close-link" type="button"></button>
+          </li>
+          <li>
+            <a><img src="images/monopod-pro-mini.jpg" width="39" height="43" alt="Профессиональная селфи-палка">
+              <p class="footer-adress">Профессиональная селфи-палка</p>
+            </a>
+            <button class="close close-link" type="button"></button>
+          </li>
+        </ul>
+      </div>
+      <div class="popover">
+        <span class="footer-adress">Товаров:2</span>
+        <span class="footer-adress">Сумма: 2000 ₽</span>
+        <a class="buttons" href="#">Открыть корзину</a>
+      </div>
+      <div class="catalog-list">
+        <span>Каталог товаров</span>
+        <button class="plus plus-link" type="button"></button>
+        <span class="visually-hidden">Раскрывающийся список товаров</span>
+        <ul class="catalog-list">
+          <li><a class="services" href="#">Доставка</a></li>
+          <li><a class="services" href="#">Гарантия</a></li>
+          <li><a class="services" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
   </div>
   <ul class="popover">
@@ -85,7 +85,7 @@
             <p class="parametr-name">Радиус поражения</p>
           </div>
         </li>
-        <li>
+        <li class="popover">
           <img src="images/slider/slider-2.png" width="560" height="560" alt="Фитнес-браслет">
           <p class="slogan">Худеем правильно!</p>
           <p class="description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
@@ -95,7 +95,7 @@
             <p class="parametr-name">Без подзарядки</p>
           </div>
         </li>
-        <li>
+        <li class="popover">
           <img src="images/slider/slider-3.png" width="560" height="560" alt="Селфи монопод">
           <p class="slogan">Делай селфи, как Бен Стиллер! </p>
           <p class="description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров
@@ -112,7 +112,7 @@
           </div>
         </li>
       </ul>
-      <ol>
+      <ol class="rings">
         <li><button class="ring-black ring-link" type="button"></button></li>
         <li><button class="ring-white ring-link" type="button"></button></li>
         <li><button class="ring-white ring-link" type="button"></button></li>
@@ -142,13 +142,13 @@
             совершенно бесплатно!
             Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
         </li>
-        <li>
+        <li class="popover">
           <h3 class="slogan">Гарантия</h3>
           <p class="service-image image-link description">Если из-за возгорания купленного у нас товара у вас сгорит дом
             — не переживайте, мы
             выдадим вам новый. Товар, не дом, конечно же.</p>
         </li>
-        <li>
+        <li class="popover">
           <h3 class="slogan">Кредит</h3>
           <p class="credit-image image-link description">Залезть в долговую яму стало проще! Кредитные консультанты
             подберут для вас наиболее
@@ -214,11 +214,11 @@
       <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
     </div>
     <div>
-      <ul>
-        <l><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
-          <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
-          <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
-          </li>
+      <ul class="rings">
+        <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
+        <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
+        <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
+        </li>
       </ul>
     </div>
     <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"

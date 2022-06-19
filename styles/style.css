@@ -48,20 +48,25 @@ footer {
 
 .navigation {
     display: flex;
-    width: 1040px;
-    margin: 0 auto;
+    width: 1160px;
+    height: 175px;
 }
 
 .navigation-list {
-    width: 1040px;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    position: relative;
+    margin-left: 60px;
 }
 
-.catalog-list{
-    Width:1040px;
-    Height:50px;
-    Top: 136px;
+.catalog-list {
+    display: flex;
+    flex-direction: row;
+    width: 520px;
+    position: relative;
+    margin-right: 60px;
+
 }
 
 li {
@@ -398,6 +403,8 @@ a {
 }
 
 .main-catalog-item {
+    display: flex;
+    flex-direction: row;
     width: 160px;
 }
 
@@ -444,6 +451,7 @@ a {
     background-color: #ffe17f;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 40px;
 }
 
 .cargo {
@@ -529,6 +537,7 @@ a {
     background-color: rgba(255, 255, 255, 0.3);
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 15px;
 }
 
 .check::before {
@@ -569,6 +578,11 @@ html {
     background-position: center;
 }
 
-.popover{
+.popover {
     display: none;
+}
+
+.rings{
+    display: flex;
+    flex-direction: row;
 }
