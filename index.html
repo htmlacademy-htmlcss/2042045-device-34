@@ -17,7 +17,7 @@
       <div class="header-top">
         <form action="https://echo.htmlacademy.ru/" method="post">
           <input class="search" type="text" name="search">
-          <button type="submit">Найти</button>
+          <button class="find" type="submit">Найти</button>
         </form>
         <a class="enter-link main-header-link" href="#">Войти</a>
         <a class="compare-link main-header-link" href="#">Сравнить</a>
@@ -46,7 +46,7 @@
       </div>
       <div class="header-bottom">
         <div class="button-dropdown">
-          <span>Каталог товаров</span>
+          <span class="header-catalog">Каталог товаров</span>
           <button class="plus plus-link" type="button">
             <span class="visually-hidden">Раскрывающийся список товаров</span>
           </button>
@@ -60,9 +60,9 @@
           <li><a class="catalog" href="#">Квадрокоптеры</a></li>
         </ul>
         <ul class="">
-          <li><a class="services" href="#">Доставка</a></li>
-          <li><a class="services" href="#">Гарантия</a></li>
-          <li><a class="services" href="#">Контакты</a></li>
+          <li><a class="services dilivery-margin" href="#">Доставка</a></li>
+          <li><a class="services dilivery-margin" href="#">Гарантия</a></li>
+          <li><a class="services dilivery-margin" href="#">Контакты</a></li>
         </ul>
       </div>
     </nav>
@@ -83,7 +83,7 @@
       <button class="right slider-link" type="button"></button>
       <ul>
         <li>
-          <img src="images/slider/slider-1.png" width="560" height="560" alt="Квадрокоптер">
+          <img class="copter-img" src="images/slider/slider-1.png" width="560" height="560" alt="Квадрокоптер">
           <p class="slogan">Порхает как бабочка,жалит как пчела!</p>
           <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным
             под стандартную
@@ -209,6 +209,32 @@
       </form>
     </section>
   </main>
+  <footer>
+    <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
+    <div>
+      <p class="footer-adress">Санкт-Петербург, Набережная реки Карповки,5, Литера П.</p>
+    </div>
+    <div>
+      <ul>
+        <li><a class="footer-advantages-item" href="#">Доставка</a></li>
+        <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
+        <li><a class="footer-advantages-item" href="#">Контакты</a></li>
+      </ul>
+    </div>
+    <div>
+      <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
+    </div>
+    <div>
+      <ul class="rings">
+        <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
+        <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
+        <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
+        </li>
+      </ul>
+    </div>
+    <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
+        alt="Логотип академии"></a>
+  </footer>
 
 </body>
 
