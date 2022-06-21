@@ -52,20 +52,17 @@ footer {
     height: 175px;
 }
 
-.navigation-list {
+.header-top{
+    width: 520px;
     display: flex;
     flex-direction: row;
-    width: 520px;
-    position: relative;
-    margin-left: 60px;
+    justify-items: space-between;
 }
 
-.catalog-list {
+.header-bottom {
+    width: 520px;
     display: flex;
     flex-direction: row;
-    width: 520px;
-    position: relative;
-    margin-right: 60px;
 
 }
 
@@ -582,7 +579,7 @@ html {
     display: none;
 }
 
-.rings{
+.rings {
     display: flex;
     flex-direction: row;
 }

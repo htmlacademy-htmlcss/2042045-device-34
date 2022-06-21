@@ -13,18 +13,18 @@
     <a href="index.html">
       <img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс">
     </a>
-    <nav>
-      <form action="https://echo.htmlacademy.ru/" method="post">
-        <input class="search" type="text" name="search">
-        <button type="submit">Найти</button>
-      </form>
-      <div >
+    <nav class="navigation">
+      <div class="header-top">
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <input class="search" type="text" name="search">
+          <button type="submit">Найти</button>
+        </form>
         <a class="enter-link main-header-link" href="#">Коля Петухов</a>
         <a class="description" href="#">Выйти</a>
         <a class="compare-link main-header-link" href="#">Сравнить</a>
         <a class="bascet-link main-header-link" href="#">Корзина</a>
         <div class="popover">
-          <ul>
+          <ul class="">
             <li>
               <a><img src="images/monopod-mini.jpg" width="39" height="43" alt="Любительская селфи-палка">
                 <p class="footer-adress">Любительская селфи-палка</p>
@@ -45,20 +45,27 @@
           </div>
         </div>
       </div>
-      <ul>
-        <li><button class="plus plus-link" type="button">Каталог товаров</button></li>
-        <li><a class="catalog" href="#">Виртуальная реальность</a></li>
-        <li><a class="catalog" href="catalog.html">Моноподы для cелфи</a></li>
-        <li><a class="catalog" href="#">Экшн-камеры</a></li>
-        <li><a class="catalog" href="#">Фитнес-браслеты</a></li>
-        <li><a class="catalog" href="#">Умные часы</a></li>
-        <li><a class="catalog" href="#">Квадрокоптеры</a></li>
-      </ul>
-      <ul>
-        <li><a class="services" href="#">Доставка</a></li>
-        <li><a class="services" href="#">Гарантия</a></li>
-        <li><a class="services" href="#">Контакты</a></li>
-      </ul>
+      <div class="header-bottom">
+        <div class="button-dropdown">
+          <span>Каталог товаров</span>
+          <button class="plus plus-link" type="button">
+            <span class="visually-hidden">Раскрывающийся список товаров</span>
+          </button>
+        </div>
+        <ul class="popover">
+          <li><a class="catalog" href="#">Виртуальная реальность</a></li>
+          <li><a class="catalog" href="catalog.html">Моноподы для cелфи</a></li>
+          <li><a class="catalog" href="#">Экшн-камеры</a></li>
+          <li><a class="catalog" href="#">Фитнес-браслеты</a></li>
+          <li><a class="catalog" href="#">Умные часы</a></li>
+          <li><a class="catalog" href="#">Квадрокоптеры</a></li>
+        </ul>
+        <ul class="">
+          <li><a class="services" href="#">Доставка</a></li>
+          <li><a class="services" href="#">Гарантия</a></li>
+          <li><a class="services" href="#">Контакты</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main class="main-container">
@@ -189,11 +196,11 @@
       <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
     </div>
     <div>
-      <ul>
-        <l><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
-          <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
-          <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
-          </li>
+      <ul class="rings">
+        <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
+        <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
+        <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
+        </li>
       </ul>
     </div>
     <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
