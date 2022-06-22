@@ -26,7 +26,6 @@ body {
     width: 1440px;
     height: 3131px;
     margin: 0;
-    display: flex;
     flex-direction: column;
     min-height: 100%;
     font-family: Rubik, sans-serif;
@@ -38,11 +37,19 @@ body {
 
 header {
     background: #ffe17f;
-    position: absolute;
     width: 1160px;
     height: 300px;
     left: 140px;
     top: 40px;
+}
+
+.copter-image {
+    position: absolute;
+    width: 560px;
+    height: 401px;
+    left: 740px;
+    top: 311px;
+
 }
 
 .main-container {
@@ -72,7 +79,6 @@ footer {
     width: 1040px;
     display: flex;
     flex-direction: row;
-
 }
 
 .header-catalog {
