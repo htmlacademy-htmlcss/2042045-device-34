@@ -24,10 +24,7 @@
 
 body {
     width: 1440px;
-    height: 3131px;
     margin: 0;
-    flex-direction: column;
-    min-height: 100%;
     font-family: Rubik, sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -39,8 +36,9 @@ header {
     background: #ffe17f;
     width: 1160px;
     height: 300px;
-    left: 140px;
-    top: 40px;
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-right: 140px;
 }
 
 .copter-image {
@@ -62,11 +60,7 @@ footer {
     background: #444444;
 }
 
-.navigation {
-    display: flex;
-    width: 1160px;
-    height: 175px;
-}
+.navigation {}
 
 .header-top {
     width: 520px;
@@ -79,6 +73,7 @@ footer {
     width: 1040px;
     display: flex;
     flex-direction: row;
+    justify-content:space-between
 }
 
 .header-catalog {
@@ -93,6 +88,11 @@ footer {
     margin-right: 24px;
 }
 
+.dilivery-box{
+    display: flex;
+    flex-direction: row;
+}
+
 .dilivery-margin {
     margin-right: 47px;
 }
@@ -104,10 +104,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-.copter-img {
-    position: relative;
 }
 
 .visually-hidden {
@@ -137,6 +133,9 @@ a {
     color: #000000;
 }
 
+.store-pages{
+
+}
 
 .slogan {
     font-family: 'Raleway';
@@ -214,7 +213,6 @@ a {
     height: 16px;
     background-repeat: no-repeat;
 }
-
 
 .more {
 
@@ -436,17 +434,6 @@ a {
     color: #000000;
 }
 
-.page-number {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #444444;
-    opacity: 0.3;
-}
-
 .main-catalog-item {
     display: flex;
     flex-direction: row;
@@ -460,7 +447,11 @@ a {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.02em;
+    margin-top: 15px;
+    margin-right: 40px; 
+    position: relative;
     color: #000000;
+
 }
 
 .vr-link::before {
@@ -630,4 +621,20 @@ html {
 .rings {
     display: flex;
     flex-direction: row;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+}
+.page-number {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #444444;
+    opacity: 0.3;
+    margin: 15px;
 }
