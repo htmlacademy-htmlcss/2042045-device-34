@@ -24,6 +24,7 @@
 
 body {
     margin: 0;
+    min-width: 1440px;
     font-family: Rubik, sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -33,11 +34,8 @@ body {
 
 header {
     background: #ffe17f;
-    width: 1160px;
     height: 300px;
-    margin-left: 140px;
     margin-top: 40px;
-    margin-right: 140px;
 }
 
 .copter-image {
@@ -48,6 +46,11 @@ header {
     top: 311px;
 
 }
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    }
 
 .main-container {
     flex-grow: 1;
@@ -89,7 +92,7 @@ footer {
 
 .dilivery-box {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .dilivery-margin {
