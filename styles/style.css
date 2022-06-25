@@ -62,17 +62,21 @@ footer {
     background: #444444;
 }
 
+.authorization{
+    display: flex;
+    width: 500px;
+    justify-content:space-around;
+}
+
 .navigation {}
 
 .header-top {
-    width: 520px;
     display: flex;
     flex-direction: row;
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 .header-bottom {
-    width: 1040px;
     display: flex;
     flex-direction: row;
     justify-content: space-between
@@ -183,6 +187,8 @@ a {
     font-size: 18px;
     line-height: 30px;
     color: #000000;
+    display: flex;
+    align-items: center;
 }
 
 .close::before {
