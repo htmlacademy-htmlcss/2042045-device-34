@@ -8,21 +8,23 @@
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <h1 class="visually-hidden">device</h1>
-    <a href="index.html">
+    <a href="#">
       <img src="images/logo.svg" width="145" height="36" alt="Логотип Девайс">
     </a>
     <nav class="navigation">
       <div class="header-top">
         <form action="https://echo.htmlacademy.ru/" method="post">
           <input class="search" type="text" name="search">
-          <button type="submit">Найти</button>
+          <button class="find" type="submit">Найти</button>
         </form>
-        <a class="enter-link main-header-link" href="#">Коля Петухов</a>
-        <a class="description" href="#">Выйти</a>
-        <a class="compare-link main-header-link" href="#">Сравнить</a>
-        <a class="bascet-link main-header-link" href="#">Корзина</a>
+        <div class="authorization">
+          <a class="enter-link main-header-link" href="#">Коля Петухов</a>
+          <a class="description" href="#">Выйти</a>
+          <a class="compare-link main-header-link" href="#">Сравнить</a>
+          <a class="bascet-link main-header-link" href="#">Корзина</a>
+        </div>
         <div class="popover">
           <ul class="">
             <li>
@@ -47,7 +49,7 @@
       </div>
       <div class="header-bottom">
         <div class="button-dropdown">
-          <span>Каталог товаров</span>
+          <span class="header-catalog">Каталог товаров</span>
           <button class="plus plus-link" type="button">
             <span class="visually-hidden">Раскрывающийся список товаров</span>
           </button>
@@ -60,10 +62,10 @@
           <li><a class="catalog" href="#">Умные часы</a></li>
           <li><a class="catalog" href="#">Квадрокоптеры</a></li>
         </ul>
-        <ul class="">
-          <li><a class="services" href="#">Доставка</a></li>
-          <li><a class="services" href="#">Гарантия</a></li>
-          <li><a class="services" href="#">Контакты</a></li>
+        <ul class="dilivery-box">
+          <li><a class="services dilivery-margin" href="#">Доставка</a></li>
+          <li><a class="services dilivery-margin" href="#">Гарантия</a></li>
+          <li><a class="services dilivery-margin" href="#">Контакты</a></li>
         </ul>
       </div>
     </nav>
@@ -181,8 +183,8 @@
     </div>
   </main>
   <footer>
-    <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
     <div>
+      <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
       <p class="footer-adress">Санкт-Петербург, Набережная реки Карповки,5, Литера П.</p>
     </div>
     <div>
@@ -191,11 +193,6 @@
         <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
         <li><a class="footer-advantages-item" href="#">Контакты</a></li>
       </ul>
-    </div>
-    <div>
-      <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
-    </div>
-    <div>
       <ul class="rings">
         <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
         <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
@@ -203,8 +200,11 @@
         </li>
       </ul>
     </div>
-    <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
-        alt="Логотип академии"></a>
+    <div>
+      <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
+      <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
+          alt="Логотип академии"></a>
+    </div>
   </footer>
 </body>
 

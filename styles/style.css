@@ -50,7 +50,7 @@ header {
 .container {
     width: 1160px;
     margin: 0 auto;
-    }
+}
 
 .main-container {
     flex-grow: 1;
@@ -62,10 +62,10 @@ footer {
     background: #444444;
 }
 
-.authorization{
+.authorization {
     display: flex;
     width: 500px;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .navigation {}
@@ -682,4 +682,31 @@ html {
     left: 0px;
     top: 102px;
     background: #F0F0F0;
+}
+
+.information {
+    left: 0%;
+    right: 55.17%;
+    top: 0%;
+    bottom: 9.54%;
+    width: 520px;
+    height: 493px;
+}
+
+.address {
+    left: 54.14%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 532px;
+    height: 545px;
+}
+
+.mailing {
+    background: #f0f0f0;
+}
+
+.shop-information {
+    width: 1160px;
+    height: 545px;
 }
