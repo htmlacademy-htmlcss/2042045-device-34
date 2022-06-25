@@ -72,13 +72,11 @@ footer {
 
 .header-top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .header-bottom {
     display: flex;
-    flex-direction: row;
     justify-content: space-between
 }
 
@@ -679,6 +677,7 @@ html {
 .choise-of-services {
     width: 1440px;
     height: 391px;
+    margin: 0% auto;
     left: 0px;
     top: 102px;
     background: #F0F0F0;
@@ -703,10 +702,14 @@ html {
 }
 
 .mailing {
+    width: 1440px;
+    margin: 0% auto;
     background: #f0f0f0;
 }
 
 .shop-information {
+    display: flex;
     width: 1160px;
     height: 545px;
+    margin: 0% auto;
 }
