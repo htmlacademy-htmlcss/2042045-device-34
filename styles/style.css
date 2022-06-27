@@ -58,7 +58,6 @@ header {
 
 footer {
     height: 321px;
-    width: 1440px;
     background: #444444;
 }
 
@@ -69,6 +68,10 @@ footer {
 }
 
 .navigation {}
+
+.copter-position{
+    margin-right: 551px;
+}
 
 .header-top {
     display: flex;
@@ -702,7 +705,6 @@ html {
 }
 
 .mailing {
-    width: 1440px;
     margin: 0% auto;
     background: #f0f0f0;
 }
@@ -712,4 +714,16 @@ html {
     width: 1160px;
     height: 545px;
     margin: 0% auto;
+}
+
+.footer-background{
+    width: 1440px;
+    display: ;
+    margin: 0% auto;
+}
+
+
+.ssa{
+    display: grid;
+
 }
