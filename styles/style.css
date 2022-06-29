@@ -69,7 +69,7 @@ footer {
 
 .navigation {}
 
-.copter-position{
+.copter-position {
     margin-right: 551px;
 }
 
@@ -212,8 +212,8 @@ a {
 .plus {
     margin-right: 293px;
 }
-ит
-.plus-link::before {
+
+ит .plus-link::before {
     content: "";
     display: block;
     width: 16px;
@@ -446,10 +446,10 @@ a {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.width-catalog{
+.width-catalog {
     width: 160px;
 }
 
@@ -683,12 +683,12 @@ html {
 }
 
 .choise-of-services {
+    display: flex;
     width: 1440px;
     height: 391px;
     margin: 0% auto;
     left: 0px;
-    top: 102px;
-    background: #F0F0F0;
+    top: 102px;;
 }
 
 .information {
@@ -721,13 +721,22 @@ html {
     margin: 0% auto;
 }
 
-.footer-background{
+.footer-background {
     width: 1440px;
     margin: 0% auto;
 }
 
 
-.ssa{
+.ssa {
     display: grid;
 
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.gray{
+    background: #F0F0F0;
 }
