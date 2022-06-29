@@ -213,7 +213,7 @@ a {
     margin-right: 293px;
 }
 
-ит .plus-link::before {
+.plus-link::before {
     content: "";
     display: block;
     width: 16px;
@@ -624,6 +624,13 @@ html {
     height: 200px;
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
+    top: 20px;
+    right: 204px;
+}
+
+.position {
+    position: relative;
 }
 
 .popover {
@@ -684,11 +691,6 @@ html {
 
 .choise-of-services {
     display: flex;
-    width: 1440px;
-    height: 391px;
-    margin: 0% auto;
-    left: 0px;
-    top: 102px;;
 }
 
 .information {
@@ -737,6 +739,6 @@ html {
     flex-direction: column;
 }
 
-.gray{
-    background: #F0F0F0;
+.gray {
+    background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
 }
