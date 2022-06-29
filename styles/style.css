@@ -212,7 +212,7 @@ a {
 .plus {
     margin-right: 293px;
 }
-
+ит
 .plus-link::before {
     content: "";
     display: block;
@@ -443,8 +443,9 @@ a {
 
 .main-catalog-item {
     display: flex;
-    flex-direction: row;
-    width: 160px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .main-catalog-link {
@@ -494,7 +495,10 @@ a {
     background-color: #ffe17f;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 40px;
+}
+
+.margin-catalog{
+    margin: 20px;
 }
 
 .cargo {
@@ -718,7 +722,6 @@ html {
 
 .footer-background{
     width: 1440px;
-    display: ;
     margin: 0% auto;
 }
 
