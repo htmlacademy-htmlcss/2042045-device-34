@@ -446,6 +446,11 @@ a {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    justify-content:space-between;
+}
+
+.width-catalog{
+    width: 160px;
 }
 
 .main-catalog-link {
@@ -495,10 +500,6 @@ a {
     background-color: #ffe17f;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.margin-catalog{
-    margin: 20px;
 }
 
 .cargo {
