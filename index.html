@@ -128,7 +128,8 @@
       <h2 class="visually-hidden">Ссылки</h2>
       <ul class="main-catalog-item">
         <li class="width-catalog"><a class="main-catalog-link vr-link" href="#">Виртуальная реальность</a></li>
-        <li class="width-catalog"><a class="main-catalog-link monopod-link" href="catalog.html">Моноподы для селфи</a></li>
+        <li class="width-catalog"><a class="main-catalog-link monopod-link" href="catalog.html">Моноподы для селфи</a>
+        </li>
         <li class="width-catalog"><a class="main-catalog-link camera-link" href="#">Экшн камеры</a></li>
         <li class="width-catalog"><a class="main-catalog-link fitnes-link" href="#">Фитнес браслеты</a></li>
         <li class="width-catalog"><a class="main-catalog-link time-link" href="#">Умные часы</a></li>
@@ -137,15 +138,15 @@
     </section>
     <section class="gray">
       <div class="choise-of-services container">
-        <ul>
+        <ul class="button-services">
           <li><a class="button-pressed" href="#">Доставка</a></li>
           <li><a class="buttons" href="#">Гарантия</a></li>
           <li><a class="buttons" href="#">Кредит</a></li>
         </ul>
         <ul>
-          <li class="position">
+          <li class="position logist-image image-link ">
             <h3 class="slogan">Доставка</h3>
-            <p class="logist-image image-link description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду
+            <p class="description-item">Мы с удовольствием доставим ваш товар прямо к вашему подъезду
               совершенно бесплатно!
               Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
           </li>
@@ -201,14 +202,17 @@
       </div>
     </section>
     <section class="mailing">
-      <h2 class="slogan">Подпишитесь на рассылку</h2>
-      <p class="description">Ежедневный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также
+      <h2 class="slogan-subscribe">Подпишитесь на рассылку</h2>
+      <p class="description-subscribe">Ежедневный дайджест с обзорами новинок, длительными тест-драйвами, распаковками,
+        а также
         акциями, спецпредложения и вот это вот всё.</p>
-      <label for="email">Email</label>
-      <form method="post" action="https://echo.htmlacademy.ru/">
-        <input type="email" id="email" name="email">
-        <button class="subscribe" type="submit">ПОДПИСАТЬСЯ</button>
-        <p class="check check-link description">Это бесплатно</p>
+      <div class="mail-list">
+        <label for="email">Email</label>
+        <form method="post" action="https://echo.htmlacademy.ru/">
+          <input type="email" id="email" name="email">
+          <button class="subscribe" type="submit">ПОДПИСАТЬСЯ</button>
+          <p class="check check-link description">Это бесплатно</p>
+      </div>
       </form>
     </section>
   </main>
@@ -217,8 +221,8 @@
       <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
       <p class="footer-adress">Санкт-Петербург, Набережная реки Карповки,5, Литера П.</p>
     </div>
-    <div>
-      <ul>
+    <div class="footer-link-position">
+      <ul class="footer-link">
         <li><a class="footer-advantages-item" href="#">Доставка</a></li>
         <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
         <li><a class="footer-advantages-item" href="#">Контакты</a></li>
@@ -230,9 +234,9 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div class="footer-phone">
       <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
-      <a href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
+      <a class="footer-logo" href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
           alt="Логотип академии"></a>
     </div>
   </footer>

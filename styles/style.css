@@ -61,16 +61,16 @@ footer {
     background: #444444;
 }
 
+.copter-position{
+    position: relative;
+    bottom: 325px;
+    right: 50px;
+}
+
 .authorization {
     display: flex;
     width: 500px;
     justify-content: space-around;
-}
-
-.navigation {}
-
-.copter-position {
-    margin-right: 551px;
 }
 
 .header-top {
@@ -129,6 +129,11 @@ a {
     margin-left: 0px;
 }
 
+.mail-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .services {
     font-family: 'Raleway';
     font-style: normal;
@@ -151,6 +156,33 @@ a {
     color: #000000;
 }
 
+.slogan-subscribe {
+    font-family: 'Raleway';
+    font-style: normal;
+    width: 348px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    position: relative;
+    left: 140px;
+    top: 65px;
+    color: #000000;
+}
+
+.description-subscribe {
+    font-family: 'Rubik';
+    font-style: normal;
+    width: 560px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    left: 750px;
+    bottom: 60px;
+    color: #444444;
+
+}
+
 .description {
     font-family: 'Rubik';
     font-style: normal;
@@ -164,7 +196,6 @@ a {
     background-image: url('../images/account.svg');
 }
 
-
 .compare-link::before {
     background-image: url('../images/compare.svg');
 }
@@ -173,7 +204,7 @@ a {
     background-image: url('../images/bascet.svg');
 }
 
-.main-header-link::before {
+.main-d-link::before {
     content: "";
     display: block;
     width: 20px;
@@ -294,15 +325,6 @@ a {
     line-height: 21px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.footer-adress {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
@@ -625,8 +647,18 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 20px;
-    right: 204px;
+    bottom: 0px;
+    left: 600px;
+}
+
+.description-item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+    width: 448px;
 }
 
 .position {
@@ -635,11 +667,6 @@ html {
 
 .popover {
     display: none;
-}
-
-.rings {
-    display: flex;
-    flex-direction: row;
 }
 
 .pagination {
@@ -693,6 +720,10 @@ html {
     display: flex;
 }
 
+.button-services {
+    padding-top: 60px;
+}
+
 .information {
     left: 0%;
     right: 55.17%;
@@ -723,17 +754,6 @@ html {
     margin: 0% auto;
 }
 
-.footer-background {
-    width: 1440px;
-    margin: 0% auto;
-}
-
-
-.ssa {
-    display: grid;
-
-}
-
 .filter {
     display: flex;
     flex-direction: column;
@@ -741,4 +761,54 @@ html {
 
 .gray {
     background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    width: 444px;
+}
+
+.footer-link-position {
+    position: relative;
+    left: 498px;
+    top: 40px;
+}
+
+.rings {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.footer-background {
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+
+.footer-adress {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.footer-phone {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1150px;
+    bottom: 75px;
+}
+
+.footer-logo{
+    position: relative;
+    top: 60px;
+    left: 60px;
 }
