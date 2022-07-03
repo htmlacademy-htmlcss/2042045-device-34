@@ -13,7 +13,6 @@
     src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
     font-display: swap;
 }
-
 @font-face {
     font-family: Raleway;
     font-style: normal;
@@ -34,6 +33,7 @@ body {
 
 header {
     background: #ffe17f;
+    position: relative;
     height: 300px;
     margin-top: 40px;
 }
@@ -49,6 +49,11 @@ header {
 
 .container {
     width: 1160px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -145,8 +150,6 @@ a {
     color: #000000;
 }
 
-.store-pages {}
-
 .slogan {
     font-family: 'Raleway';
     font-style: normal;
@@ -164,7 +167,7 @@ a {
     font-size: 50px;
     line-height: 50px;
     position: relative;
-    left: 140px;
+    left: 0px;
     top: 65px;
     color: #000000;
 }
@@ -177,7 +180,7 @@ a {
     font-size: 18px;
     line-height: 30px;
     position: relative;
-    left: 750px;
+    left: 600px;
     bottom: 60px;
     color: #444444;
 
@@ -692,11 +695,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 1160px;
-    height: 100px;
     margin-top: 70px;
-    margin-left: 140px;
-    margin-right: 140px;
     background: #F0F0F0;
 }
 
@@ -760,7 +759,9 @@ html {
 }
 
 .gray {
+    width: auto;
     background: linear-gradient(#ffffff 102px, #f0f0f0 102px);
+    background-position: center;
 }
 
 .footer-link {
@@ -769,24 +770,12 @@ html {
     width: 444px;
 }
 
-.footer-link-position {
-    position: relative;
-    left: 498px;
-    top: 40px;
-}
-
 .rings {
     display: flex;
     flex-direction: row;
     position: relative;
     left: 150px;
     top: 40px;
-}
-
-.footer-background {
-    position: relative;
-    left: 150px;
-    top: 60px;
 }
 
 .footer-adress {
@@ -799,11 +788,23 @@ html {
     width: 260px;
 }
 
+.footer-background {
+    position: relative;
+    left: 10px;
+    top: 60px;
+}
+
+.footer-link-position {
+    position: relative;
+    left: 320px;
+    top: 40px;
+}
+
 .footer-phone {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 1150px;
+    left: 985px;
     bottom: 75px;
 }
 
@@ -811,4 +812,8 @@ html {
     position: relative;
     top: 60px;
     left: 60px;
+}
+
+.pages{
+    display: flex;
 }
