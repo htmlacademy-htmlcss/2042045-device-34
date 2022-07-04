@@ -32,7 +32,8 @@ body {
 }
 
 header {
-    background: #ffe17f;
+    
+    background:linear-gradient(#ffffff 40px, #ffe17f 40px);
     position: relative;
     height: 300px;
     margin-top: 40px;
@@ -393,6 +394,12 @@ a {
     letter-spacing: -0.02em;
     color: #000000;
 }
+
+.catalog-inner{
+    background: #f0f0f0;
+}
+
+.catalog-inner .container {display: flex;}
 
 .catalog {
     font-family: 'Rubik';
@@ -816,4 +823,11 @@ html {
 
 .pages{
     display: flex;
+}
+
+.catalog-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+    margin: 40px;
 }

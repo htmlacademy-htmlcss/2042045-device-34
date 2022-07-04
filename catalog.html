@@ -79,53 +79,56 @@
         <li><a class="choice" href="#">Моноподы для селфи</a></li>
       </ul>
     </section>
-    <section class="filter">
-      <form action="https://echo.htmlacademy.ru/" method="post">
-        <h2 class="sorting">ФИЛЬТР:</h2>
-        <fieldset>
-          <legend class="filter">Стоимость</legend>
-          <div class="range-bar">
-            <button class="range-toggle toggle-min">
-              <span class="visually-hidden">Изменить минимальную стоимость.
-              </span>
-            </button>
-            <button class="range-toggle toggle-max">
-              <span class="visually-hidden">Изменить максимальную стоимость.
-              </span>
-            </button>
-          </div>
-
-          <div class="range-wrapper-inputs">
-            <label class="catalog-range-label">
-              от
-              <input class="range-input" type="number" value="0" name="min-price">
-            </label>
-            <label class="catalog-range-label">
-              до
-              <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
-            </label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="filter">Цвет</legend>
-          <ul>
-            <li><label class="choice"><input type="checkbox" name="black" checked="checked">Черный</label></li>
-            <li><label class="choice"><input type="checkbox" name="white" checked="checked">Белый</label></li>
-            <li><label class="choice"><input type="checkbox" name="blue">Синий</label></li>
-            <li><label class="choice"><input type="checkbox" name="red">Красный</label></li>
-            <li><label class="choice"><input class="choice" type="checkbox" name="pink">Розовый</label></li>
-          </ul>
-        </fieldset>
-        <fieldset>
-          <legend class="filter">Bluetooth</legend>
-          <ul>
-            <li><label class="choice"><input type="radio" name="question-one" value="yes" checked="checked">Есть</label>
-            </li>
-            <li><label class="choice"><input type="radio" name="question-one" value="no">Нет</label></li>
-          </ul>
-          <button class="buttons" type="submit">Показать</button>
-        </fieldset>
-      </form>
+    <section class=" catalog-inner">
+      <div class="filter container">
+        <form action=rttps://echo.htmlacademy.ru/" method="post">
+          <h2 class="sorting">ФИЛЬТР:</h2>
+          <fieldset>
+            <legend class="filter">Стоимость</legend>
+            <div class="range-bar">
+              <button class="range-toggle toggle-min">
+                <span class="visually-hidden">Изменить минимальную стоимость.
+                </span>
+              </button>
+              <button class="range-toggle toggle-max">
+                <span class="visually-hidden">Изменить максимальную стоимость.
+                </span>
+              </button>
+            </div>
+            <div class="range-wrapper-inputs">
+              <label class="catalog-range-label">
+                от
+                <input class="range-input" type="number" value="0" name="min-price">
+              </label>
+              <label class="catalog-range-label">
+                до
+                <input class="range-input" type="number" value="5000" name="max-price" style="width: 37px">
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="filter">Цвет</legend>
+            <ul>
+              <li><label class="choice"><input type="checkbox" name="black" checked="checked">Черный</label></li>
+              <li><label class="choice"><input type="checkbox" name="white" checked="checked">Белый</label></li>
+              <li><label class="choice"><input type="checkbox" name="blue">Синий</label></li>
+              <li><label class="choice"><input type="checkbox" name="red">Красный</label></li>
+              <li><label class="choice"><input class="choice" type="checkbox" name="pink">Розовый</label></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend class="filter">Bluetooth</legend>
+            <ul>
+              <li><label class="choice"><input type="radio" name="question-one" value="yes"
+                    checked="checked">Есть</label>
+              </li>
+              <li><label class="choice"><input type="radio" name="question-one" value="no">Нет</label></li>
+            </ul>
+            <button class="buttons" type="submit">Показать</button>
+          </fieldset>
+        </form>
+        <li><label class="choice"><input class="choice" type="checkbox" name="pink">Розовый</label></li>
+        </div>
     </section>
     <section>
       <h2 class="sorting">СОРТИРОВКА:</h2>
@@ -142,7 +145,7 @@
       </ul>
     </section>
     <div>
-      <ul class="">
+      <ul class="catalog-images container">
         <li><img src="images/catalog/monopod.jpg" width="360" height="380" alt="Любительская селфи-палка">
           <h3 class="products">Любительская селфи-палка</h3>
           <b class="price">500 ₽</b>
@@ -183,27 +186,29 @@
     </div>
   </main>
   <footer>
-    <div class="footer-background">
-      <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
-      <p class="footer-adress">Санкт-Петербург, Набережная реки Карповки,5, Литера П.</p>
-    </div>
-    <div class="footer-link-position">
-      <ul class="footer-link">
-        <li><a class="footer-advantages-item" href="#">Доставка</a></li>
-        <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
-        <li><a class="footer-advantages-item" href="#">Контакты</a></li>
-      </ul>
-      <ul class="rings">
-        <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
-        <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
-        <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer-phone">
-      <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
-      <a class="footer-logo" href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
-          alt="Логотип академии"></a>
+    <div class="container">
+      <div class="footer-background">
+        <a href="#"><img src="images/logo-yelow.svg" width="145" height="36" alt="Логотип Девайс"></a>
+        <p class="footer-adress">Санкт-Петербург, Набережная реки Карповки,5, Литера П.</p>
+      </div>
+      <div class="footer-link-position">
+        <ul class="footer-link">
+          <li><a class="footer-advantages-item" href="#">Доставка</a></li>
+          <li><a class="footer-advantages-item" href="#">Гарантия</a></li>
+          <li><a class="footer-advantages-item" href="#">Контакты</a></li>
+        </ul>
+        <ul class="rings">
+          <li><a class="telegram-link main-social-link" href="https://t.me/htmlacademy"></a></li>
+          <li><a class="youtube-link main-social-link" href="https://www.youtube.com/user/htmlacademyru"></a></li>
+          <li><a class="twitter-link main-social-link" class="twitter" href="https://twitter.com/htmlacademy_ru"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-phone">
+        <a class="phone-number" href="tel:+78128121212">Тел. +7(812)812-12-12</a>
+        <a class="footer-logo" href="images/html.academy.svg"><img src="images/html.academy.svg" width="115" height="33"
+            alt="Логотип академии"></a>
+      </div>
     </div>
   </footer>
 </body>
